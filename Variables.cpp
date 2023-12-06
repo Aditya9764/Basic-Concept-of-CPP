@@ -1,6 +1,7 @@
-// Const , static 
+// Const  
 // Use of this variable and Scope of this variable 
-
+// simple trick * chya left side const asel tr pointer varible pointing to constant value
+//  right side la const asel tr constant pointer varible pointing to value 
 #include <iostream>
 using namespace std;
  
