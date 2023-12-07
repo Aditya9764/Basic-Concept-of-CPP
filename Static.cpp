@@ -86,3 +86,27 @@ int main()
 // 1 output
 
 */
+
+/*
+ 
+// C++ program to demonstrate static member function in a class
+ //Static member functions are allowed to access only the static data members or other static member functions, they can not access the non-static data members or member functions of the class.
+#include <iostream>
+using namespace std;
+ 
+class GfG {
+public:
+    // static member function
+    static void printMsg() { cout << "Welcome to GfG!"; }
+};
+ 
+// main function
+int main()
+{
+    // invoking a static member function
+    GfG::printMsg();
+}
+// output 
+//Welcome to GfG!
+
+*/
