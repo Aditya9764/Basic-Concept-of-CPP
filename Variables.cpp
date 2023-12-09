@@ -1,7 +1,11 @@
 // Const  
 // Use of this variable and Scope of this variable 
 // simple trick * chya left side const asel tr pointer varible pointing to constant value
+//you cant change the value directly using pointer(const int* i= &x ) *i=6 not possible  but you can change  x=5  & i = &a 
+
+
 //  right side la const asel tr constant pointer varible pointing to value 
+//you cant change the value directly using pointer(const int* i= &x ) *i=&y not possible  but you can change x=5   & *i = 5 
 #include <iostream>
 using namespace std;
  
